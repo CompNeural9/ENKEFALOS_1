@@ -14,5 +14,5 @@ Appyter 1:
 - Prints out the number of enriched genes as well as what the genes with significant correlations are.
 - Calls StringDB to create a gene interactome of your enriched genes. Will tabulate the number of interactions each gene has.
 
-# Citing
+# Reference
 1. [Bomkamp C, Tripathy SJ, Bengtsson Gonzales C, Hjerling-Leffler J, Craig AM, et al. (2019) Transcriptomic correlates of electrophysiological and morphological diversity within and across excitatory and inhibitory neuron classes. PLOS Computational Biology 15(6): e1007113.](https://journals.plos.org/ploscompbiol/article/citation?id=10.1371/journal.pcbi.1007113)
