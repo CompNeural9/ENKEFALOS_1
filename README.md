@@ -1,4 +1,4 @@
-This appyter takes a list of differentially expressed genes (recommended to be from a neural tissue/cell sample) and helps identify genes that are significantly associated with neural electrophysiological and/or morphological measures using data derived from a study done by the Pavlidis Lab at the University of British Columbia. You can find the description of the data and how it was derived [here](https://github.com/PavlidisLab/transcriptomic_correlates). Please note that there are two appyter that compose ENKEFALOS, the first one being for multi-gene analysis, and the second one being for single-gene analysis (designed for more downstream analyses after the first).
+This appyter is the first part of the two-part ENKEFALOS analysis pipeline. It takes a list of differentially expressed genes (recommended to be from a neural tissue/cell sample) and helps identify genes that are significantly associated with neural electrophysiological and/or morphological measures using data derived from a study done by the Pavlidis Lab at the University of British Columbia. You can find the description of the data and how it was derived [here](https://github.com/PavlidisLab/transcriptomic_correlates). The second part of the ENKEFALOS appyter can be utilized for more downstream, single-gene analysis based on your results from this appyter's results.
 
 # Framework
 
@@ -13,11 +13,6 @@ Appyter 1:
 - Displays genes from your GOI that had significant correlations with electrophysiological/morphological measures.
 - Prints out the number of enriched genes as well as what the genes with significant correlations are.
 - Calls StringDB to create a gene interactome of your enriched genes. Will tabulate the number of interactions each gene has.
-  
-Appyter 2
-- Will give the option to create a smaller subset network given certain parameters.
-- Will allow you to obtain multiple or singular correlation plots of a gene of interest and electrophysiological/morphological measures.
-- Shows the plot data of the correlation plots of a gene of interest.
 
 # Citing
 1. [Bomkamp C, Tripathy SJ, Bengtsson Gonzales C, Hjerling-Leffler J, Craig AM, et al. (2019) Transcriptomic correlates of electrophysiological and morphological diversity within and across excitatory and inhibitory neuron classes. PLOS Computational Biology 15(6): e1007113.](https://journals.plos.org/ploscompbiol/article/citation?id=10.1371/journal.pcbi.1007113)
